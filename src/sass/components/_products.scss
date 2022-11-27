@@ -439,12 +439,6 @@
 
 // products card hover
 
-.product_item:hover {
-  box-shadow: -2px -2px 15px rgba(124, 124, 114, 0.5),
-    2px 2px 15px rgba(124, 124, 114, 0.5), 3px 3px 15px rgba(121, 147, 111),
-    -3px -3px 15px rgba(121, 147, 111);
-}
-
 .first_product:hover {
   background: linear-gradient(
       0deg,
@@ -452,6 +446,10 @@
       rgba(121, 147, 111, 0.7)
     ),
     #d9d9d9;
+
+  box-shadow: -2px -2px 15px rgba(124, 124, 114, 0.5),
+    2px 2px 15px rgba(124, 124, 114, 0.5), 3px 3px 15px rgba(121, 147, 111),
+    -3px -3px 15px rgba(121, 147, 111);
 
   & {
     @include transitionM(background);
@@ -467,6 +465,10 @@
     ),
     #d9d9d9;
 
+  box-shadow: -2px -2px 15px rgba(124, 124, 114, 0.5),
+    2px 2px 15px rgba(124, 124, 114, 0.5), 3px 3px 15px rgba(217, 177, 33, 0.7),
+    -3px -2px 15px rgba(217, 177, 33, 0.7);
+
   & {
     @include transitionM(background);
     @include transitionM(box-shadow);
@@ -480,6 +482,10 @@
       rgba(176, 97, 52, 0.7)
     ),
     #d9d9d9;
+
+  box-shadow: -2px -2px 15px rgba(124, 124, 114, 0.5),
+    2px 2px 15px rgba(124, 124, 114, 0.5), 3px 3px 15px rgba(176, 97, 52, 0.7),
+    -3px -3px 15px rgba(176, 97, 52, 0.7);
 
   & {
     @include transitionM(background);
